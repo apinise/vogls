@@ -1,6 +1,6 @@
 # Getting Started
 
-Vogls is a [Verilog] simulator that aims to fast, flexible and embeddable into
+Vogls is a [Verilog] simulator that aims to be fast, flexible and embeddable into
 tools. It was specifically built to create tools for design stage side-channel
 analysis.
 

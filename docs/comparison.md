@@ -8,7 +8,7 @@ By default, Vogls uses two-value logic for wires and registers, but it can also 
 
 ## Icarus Verilog
 
-Icarus Verilog is the closest to Vogls in terms of simulation model. It also implements Verilg simulation semantics, but does not provide a native code execution strategy and always uses four-value logic.
+Icarus Verilog is the closest to Vogls in terms of simulation model. It also implements Verilog simulation semantics, but does not provide a native code execution strategy and always uses four-value logic.
 
 Icarus Verilog is more mature, better tested and likely what designs are tested against. However, it is relatively slow and difficult to embed. We use Icarus Verilog as a reference simulator for the Verilog semantics. However, do note that Verilog simulation semantics has race conditions, so Vogls and Icarus Verilog might not always agree.
 
